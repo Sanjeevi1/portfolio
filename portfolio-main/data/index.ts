@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Education", link: "" },
+  { name: "Education", link: "#education" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -19,7 +19,7 @@ export const gridItems = [
 
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I am passionate about full stack web development .",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -41,7 +41,7 @@ export const gridItems = [
   {
     id: 5,
     title: "Turf Booking System",
-    description: "Book your game, own the field ",
+    description: "Book your game, own the field (Currently Working on it) ",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -67,7 +67,7 @@ export const projects = [
     des: "Enabled customers to order fresh vegetables with customized quantities and real- time updates.",
     img: "/vege.jpg",
     iconLists: ["/django.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-css.svg", "/icons8-sql-64.png"],
-    link: "https://www.drive.google.com",
+    link: "https://github.com/San5jeevi55/Freshfare",
   },
   {
     id: 2,
@@ -75,7 +75,7 @@ export const projects = [
     des: "Created a centralized digital platform for internship management..",
     img: "/internship.png",
     iconLists: ["/django.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-css.svg", "/icons8-sql-64.png"],
-    link: "https://www.drive.google.com",
+    link: "https://github.com/San5jeevi55/Internship",
   },
   {
     id: 3,

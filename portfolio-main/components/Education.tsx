@@ -13,7 +13,7 @@ const Education = () => {
         </span>
       </h1>
 
-      <div className="flex flex-col items-center max-lg:mt-10">
+      <div className="flex flex-col items-center max-lg:mt-10" id="education">
         <div
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
