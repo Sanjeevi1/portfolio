@@ -95,7 +95,7 @@ export const testimonials = [
     id: 1,
     quote: "I am a BTech Information Technology student at SSN College of Engineering, focusing on full stack development. I am passionate about creating seamless, user-friendly applications and continually enhancing my skills in front-end and back-end technologies. My goal is to contribute to innovative projects that integrate technology with excellent user experience.",
     name: "SSN COLLEGE OF ENGINEERING",
-    title: "Btech Information Technology CGPA:8.41",
+    title: "Btech Information Technology CGPA:8.381",
   },
   {
     id: 2,
