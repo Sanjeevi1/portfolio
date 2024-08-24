@@ -83,7 +83,7 @@ export const projects = [
     des: "Our turf booking website allows users to quickly and easily reserve sports fields for their favorite activities. Whether you're planning a soccer match, cricket game, or any other sport, our platform lets you browse available slots, compare prices, and book your turf instantly—giving you more time to focus on the game!",
     img: "/turf.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/icons8-html.svg", "/icons8-sql-64.png"],
-    link: "https://www.drive.google.com",
+    link: "https://github.com/San5jeevi55/Internship",
   },
 
 ];
