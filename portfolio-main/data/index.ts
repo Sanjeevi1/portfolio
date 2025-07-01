@@ -16,7 +16,6 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-
   {
     id: 2,
     title: "I am passionate about full stack web development .",
@@ -37,7 +36,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Turf Booking System",
@@ -64,7 +62,7 @@ export const projects = [
   {
     id: 1,
     title: "VEGETABLE VENDOR SYSTEM",
-    des: "Enabled customers to order fresh vegetables with customized quantities and real- time updates.",
+    des: "Enabled customers to order fresh vegetables with customized quantities and real-time updates.",
     img: "/vege.jpg",
     iconLists: ["/django.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-css.svg", "/icons8-sql-64.png"],
     link: "https://github.com/San5jeevi55/Freshfare",
@@ -72,7 +70,7 @@ export const projects = [
   {
     id: 2,
     title: "Internship Management System",
-    des: "Created a centralized digital platform for internship management..",
+    des: "Created a centralized digital platform for internship management.",
     img: "/internship.png",
     iconLists: ["/django.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-css.svg", "/icons8-sql-64.png"],
     link: "https://github.com/San5jeevi55/Internship",
@@ -80,18 +78,31 @@ export const projects = [
   {
     id: 3,
     title: "Turf Booking System",
-    des: "Our turf booking website allows users to quickly and easily reserve sports fields for their favorite activities. Whether you're planning a soccer match, cricket game, or any other sport, our platform lets you browse available slots, compare prices, and book your turf instantly—giving you more time to focus on the game!",
+    des: "A turf booking website that allows users to reserve sports fields instantly for activities like soccer or cricket.",
     img: "/turf.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/icons8-html.svg", "/icons8-sql-64.png"],
     link: "https://github.com/San5jeevi55/Internship",
   },
-
+  {
+    id: 4,
+    title: "Sign Language Translator",
+    des: "AI-powered sign language translator that converts hand gestures into text and speech in real-time using computer vision and LSTM models.",
+    img: "/signlang.jpg", // Replace with your actual image path
+    iconLists: ["/python.svg", "/opencv.svg", "/mediapipe.svg", "/tensorflow.svg"],
+    link: "https://github.com/San5jeevi55/SignLanguage-Translator",
+  },
+  {
+    id: 5,
+    title: "Warehouse Management System (WMS)",
+    des: "Developed a comprehensive warehouse management system that streamlines inventory tracking, stock movements, and reporting.",
+    img: "/wms.jpg", // Replace with your actual image path
+    iconLists: ["/django.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-sql-64.png"],
+    link: "https://github.com/San5jeevi55/Warehouse-Management-System",
+  },
 ];
 
 export const testimonials = [
   {
-    /*quote: "I am currently pursuing my BTech in Information Technology at SSN College of Engineering, where I am actively exploring full stack development. My academic journey has equipped me with a solid foundation in both front-end and back-end technologies, and I am eager to expand my skills further. I am passionate about building seamless, user-friendly applications and continuously seek out opportunities to deepen my knowledge in areas such as web development, database management, and software architecture. My goal is to contribute to innovative projects that bridge the gap between cutting-edge technology and user experience.",
-    */
     id: 1,
     quote: "I am a BTech Information Technology student at SSN College of Engineering, focusing on full stack development. I am passionate about creating seamless, user-friendly applications and continually enhancing my skills in front-end and back-end technologies. My goal is to contribute to innovative projects that integrate technology with excellent user experience.",
     name: "SSN COLLEGE OF ENGINEERING",
@@ -102,29 +113,26 @@ export const testimonials = [
     quote: "I completed my 12th studies with a remarkable 99.6% score, which reflects my dedication and strong academic background. This achievement has laid a solid foundation for my ongoing pursuit of excellence in Information Technology at SSN College of Engineering.",
     name: "Senthil Matric Hr Sec School",
     title: "HSC 579/600",
-  }
+  },
 ];
-
-
 
 export const workExperience = [
   {
     id: 1,
-    title: "Prodigy InfoTech",
-    subtitle: "Full Stack Developer Intern",
-    desc: "I am currently working as a Web Developer at Prodigy Infotech in Chennai, Tamil Nadu, where I develop and maintain responsive, user-friendly web applications using HTML, CSS, JavaScript, and modern front-end frameworks like React, Angular, and Vue.js.",
+    title: "Dignie",
+    subtitle: "Software Developer Intern",
+    desc: "Currently interning at Dignie where I contribute to the development of scalable web applications using modern technologies and collaborate on innovative projects aimed at improving user experience.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.svg", // You can change the thumbnail to represent Dignie
   },
   {
     id: 2,
-    title: "ACADEMIC PROJECTS ",
+    title: "ACADEMIC PROJECTS",
     subtitle: "Team Lead",
-    desc: "I led teams for academic projects like Vegetable Vendor, Internship Management System and etc.., where I contributed to coding and coordinated project execution using various technologies and tools, ensuring timely delivery and high-quality outcomes.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "Led the development of academic projects such as the Vegetable Vendor System, Internship Management System, and more. Handled full stack development and ensured timely and quality delivery.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
-
 ];
 
 export const socialMedia = [
