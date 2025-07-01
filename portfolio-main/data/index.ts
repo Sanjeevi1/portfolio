@@ -38,8 +38,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Turf Booking System",
-    description: "Book your game, own the field (Currently Working on it) ",
+    title: "SurfTurf",
+    description: "Book your game, own the field. ",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -79,24 +79,24 @@ export const projects = [
     id: 3,
     title: "Turf Booking System",
     des: "A turf booking website that allows users to reserve sports fields instantly for activities like soccer or cricket.",
-    img: "/turf.jpg",
+    img: "/Screenshot 2024-11-12 214028.png",
     iconLists: ["/re.svg", "/tail.svg", "/icons8-html.svg", "/icons8-sql-64.png"],
-    link: "https://github.com/San5jeevi55/Internship",
+    link: "https://github.com/San5jeevi55/SurfTurf",
   },
   {
     id: 4,
     title: "Sign Language Translator",
     des: "AI-powered sign language translator that converts hand gestures into text and speech in real-time using computer vision and LSTM models.",
-    img: "/signlang.jpg", // Replace with your actual image path
+    img: "/signlang.jpg", 
     iconLists: ["/python.svg", "/opencv.svg", "/mediapipe.svg", "/tensorflow.svg"],
     link: "https://github.com/San5jeevi55/SignLanguage-Translator",
   },
   {
     id: 5,
-    title: "Warehouse Management System (WMS)",
-    des: "Developed a comprehensive warehouse management system that streamlines inventory tracking, stock movements, and reporting.",
+    title: "Waste Management System (WMS)",
+    des: "",
     img: "/wms.jpg", // Replace with your actual image path
-    iconLists: ["/django.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-sql-64.png"],
+    iconLists: ["/re.svg", "/icons8-js.svg", "/icons8-html.svg", "/icons8-sql-64.png"],
     link: "https://github.com/San5jeevi55/Warehouse-Management-System",
   },
 ];
