@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import dynamic from 'next/dynamic';
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+// Dynamically import Lottie with SSR disabled
+const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
 
 import { cn } from "@/lib/utils";
 
@@ -54,10 +56,10 @@ export const BentoGridItem = ({
   const rightLists = ["NodeJS", "SQL", "JavaScript"];
 
   const [copied, setCopied] = useState(false);
-  const [isClient, setIsClient] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsClient(true);
+    setIsMounted(true);
   }, []);
 
   const defaultOptions = {
@@ -162,14 +164,9 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-
-              <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
-                  }`}
-              >
-                <Lottie options={defaultOptions} height={200} width={400} />
+              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
+                {isMounted && <Lottie options={defaultOptions} height={200} width={400} />}
               </div>
-
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
